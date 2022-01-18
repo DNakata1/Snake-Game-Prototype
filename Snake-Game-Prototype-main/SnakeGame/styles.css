@@ -1,0 +1,100 @@
+/*title*/
+h1{
+    color:white;
+    text-align: center;
+    margin: 10px;
+}
+/*Background*/
+body{background-color: black;}
+a{color:white;}
+.tab-menu{
+    display:flex;
+    color:white;                                                                                                                                                                                                                                                                  
+}
+/*Each button from the menu*/
+.tab-buttons{
+    text-align: center;
+    flex-grow: 1;
+}
+.tab-buttons-borders{ 
+   padding: 10px;
+   border: 3px solid rgb(255, 255, 255);
+}
+.tab-buttons:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    top: 125px
+}
+.each-option{
+    margin-bottom: 25px;
+    border: 1px solid white;
+    padding: 20px;
+}
+.each-option:hover{
+  background-color: white;
+  color:black;
+  text-decoration: underline;
+}
+
+.setting-menu{
+    position:fixed;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    right: 5px;
+    top: 125px;
+}
+.setting-bar{
+    width: 225px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+}
+.setting-bar p{
+    font-size: 27px;
+    text-align: center;
+    padding-top: 40px;
+}
+*{
+    font-family: 'Press Start 2P', cursive; 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@media only screen and (max-width: 1380px) {
+.flexable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.setting-menu{
+    position: relative;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    margin:0 auto;
+}
+.setting-bar{
+    width: 225px;
+    height: 100px;
+    background-color: white;
+}
+.setting-bar p{
+    font-size: 27px;
+    text-align: center;
+    padding-top: 40px;
+}
+}
